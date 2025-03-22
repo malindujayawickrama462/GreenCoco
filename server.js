@@ -27,7 +27,7 @@ connection.once("open", () => {
   console.log("MongoDB Connection success!");
 });
 
-const inventoryRouter = require("./routes/Inventorys");
+const inventoryRouter = require("./Inventory/Backend/routes/Inventorys");
 
 app.use("/inventory",inventoryRouter);
 
