@@ -21,7 +21,7 @@ const UpdateInventory = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8070/inventory/get/${id}`)
+      .get(`http://localhost:8050/inventory/get/${id}`)
       .then((response) => {
         setInventory(response.data.inventory);
       })
@@ -35,7 +35,7 @@ const UpdateInventory = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:8070/inventory/update/${id}`, inventory)
+      .put(`http://localhost:8050/inventory/update/${id}`, inventory)
       .then(() => {
         alert("Inventory updated successfully");
         navigate("/inventory");

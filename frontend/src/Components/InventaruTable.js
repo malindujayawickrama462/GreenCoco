@@ -15,7 +15,7 @@ const InventoryTable = () => {
   const STOCK_THRESHOLD = 5; //  Set low stock alert threshold (e.g., 5kg)
 
   useEffect(() => {
-    axios.get("http://localhost:8070/inventory/")
+    axios.get("http://localhost:8050/inventory/")
       .then((response) => {
         setInventoryData(response.data);
 
@@ -48,7 +48,7 @@ const InventoryTable = () => {
   };
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:8070/inventory/delete/${id}`)
+    axios.delete(`http://localhost:8050/inventory/delete/${id}`)
       .then(() => {
         const updatedData = inventoryData.filter((item) => item._id !== id);
         setInventoryData(updatedData);

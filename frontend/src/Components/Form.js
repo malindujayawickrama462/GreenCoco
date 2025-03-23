@@ -35,7 +35,7 @@ const CoconutWasteForm = () => {
     }
 
     try {
-      await axios.post("http://localhost:8070/inventory/add", formData);
+      await axios.post("http://localhost:8050/inventory/add", formData);
       alert("Waste details added successfully!");
 
       // Reset form
