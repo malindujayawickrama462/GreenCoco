@@ -1,0 +1,19 @@
+
+.view-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    
+  }
+  
+  .view-btn:hover {
+    background-color: #3b5b3c;
+  }
+  

@@ -1,0 +1,86 @@
+.header {
+    background-color: rgb(126, 230, 126);
+    height: 80px;
+    padding: 1rem;
+    color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #0a0a0aef;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-left: 1rem;
+    
+  }
+  
+  .navLink {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    background-color: #21cd2a;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+
+  .secondary-nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+  }
+  
+  .secondary-navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .secondary-navItem {
+    display: inline-block;
+  }
+  
+  .secondary-navLink {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-size: 14px;
+  }
+  
+  .secondary-navLink:hover {
+    color: #4CAF50; /* Green text on hover */
+  }
