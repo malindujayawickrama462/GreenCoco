@@ -1,0 +1,142 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  /* General button styles */
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Update button style */
+  button.update-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button.update-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Delete button style */
+  button.delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #e53935;
+  }
+ /* Total Weight Styling */
+.total-weight-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.total-weight-card {
+  background: #008080;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total-weight-card h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.total-weight-card p {
+  font-size: 24px;
+  margin: 5px 0 0;
+}
+
+/* Waste Type Weight Styling */
+.waste-type-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.waste-type-card {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-width: 200px;
+}
+
+.waste-type-card h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.waste-type-card p {
+  font-size: 22px;
+  margin: 5px 0 0;
+}
+.alert-box {
+  background-color: #ffcccc;
+  color: #990000;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #990000;
+  border-radius: 5px;
+}
+
+.low-stock {
+  background-color: #ffebeb !important;
+  color: red;
+  font-weight: bold;
+}
+
+.update-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
