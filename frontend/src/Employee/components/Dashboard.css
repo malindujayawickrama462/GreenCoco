@@ -1,0 +1,17 @@
+.dashboard {
+    padding: 20px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.metric {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 22%;
+}
